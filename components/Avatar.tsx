@@ -1,6 +1,6 @@
-import { HTMLProps } from 'react'
+import { ImgHTMLAttributes } from 'react'
 
-export interface AvatarProps extends HTMLProps<HTMLImageElement> {}
+export interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement> {}
 
 export default function Avatar({ className, ...rest }: AvatarProps) {
   return (
