@@ -8,3 +8,29 @@ One of the winners at [Baparekraf Digital Challenge – Ciptakan Solusi untuk In
 Find on Github or LinkedIn, mail me at erickchristian48@gmail.com
 
 Cheers!
+
+Also I want to test these out
+
+**Bold**
+
+*Italic*
+
+***Both***
+
+> Blockquote
+
+* Unordered List
+* 2
+* 3
+
+1. Ordered List
+2. 2
+3. 3
+
+![nothing to see](/img/content/layered-steps-haikei.png)
+
+```
+Yeah, whatever
+```
+
+this is `inline code` bruh
