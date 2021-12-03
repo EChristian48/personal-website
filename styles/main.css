@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply dark:(bg-dark-900 text-light-900) bg-light-50 text-dark-200 transition-colors;
+}
+
+ol li {
+  @apply list-decimal ml-4;
+}
+
+code {
+  @apply font-mono px-1 bg-light-900 dark:bg-dark-50;
+}
+
+pre {
+  @apply p-3 bg-light-900 dark:bg-dark-50;
+}
+
+.markdown img {
+  @apply mx-auto;
+}
+
+hr {
+  @apply bg-dark-50 dark:bg-light-900 h-[1px];
+}
+
+.markdown a {
+  @apply text-dark-200 dark:text-light-900 font-semibold;
+}

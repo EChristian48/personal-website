@@ -1,0 +1,6 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "windicss.enableAttrUtilityCompletion": false,
+  "windicss.enableAttrVariantCompletion": false,
+  "cSpell.words": ["lokr"]
+}
