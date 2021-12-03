@@ -21,6 +21,6 @@ export default Index
 
 export const getStaticProps: GetStaticProps<IndexProps> = async () => ({
   props: {
-    index: parseMarkdown(contentDir, 'notes')
+    index: parseMarkdown(contentDir, 'index')
   }
 })
