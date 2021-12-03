@@ -7,6 +7,7 @@ import { Default } from '~/layouts'
 // Styles imports
 import 'windi.css'
 import 'nprogress/nprogress.css'
+import '~/styles/fonts.css'
 import '~/styles/main.css'
 import '~/styles/typography.css'
 
