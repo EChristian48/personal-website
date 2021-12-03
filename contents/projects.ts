@@ -2,15 +2,22 @@ import { Project } from '~/types'
 
 export const projects: Project[] = [
   {
-    description: 'lorem dolorem lorem dolorem lorem dolorem lorem',
+    description:
+      'Museroom aims to build an ecosystem to discover local creative individuals and to connect them with the right people in the industry.',
     link: 'https://www.museroom.co/',
-    name: 'Museroom'
+    name: 'Museroom',
+    thumbnail: '/img/museroom-logo.svg'
   },
   {
-    description: 'lorem dolorem lorem dolorem lorem dolorem lorem',
-    link: 'https://www.museroom.co/',
-    name: 'Museroom w/ logo',
-    thumbnail:
-      'https://s1.zerochan.net/Lucina.%28Fire.Emblem%29.600.1180825.jpg'
+    description:
+      'Travel experience sharing app where you can also find near tourist attraction.',
+    link: 'https://ngabolang.netlify.app/',
+    name: 'Ngabolang'
+  },
+  {
+    description:
+      'Tools for Super Smash Bros. Mostly matchup tools where you can see you character matchups',
+    link: 'https://smashtools.netlify.app/',
+    name: 'Smash Tools'
   }
 ]
