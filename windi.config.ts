@@ -1,4 +1,5 @@
 import { defineConfig } from 'windicss/helpers'
+const scrollbarPlugin = require('@windicss/plugin-scrollbar')
 
 export default defineConfig({
   extract: {
@@ -12,5 +13,6 @@ export default defineConfig({
         mono: ['JetBrains Mono', 'monospace']
       }
     }
-  }
+  },
+  plugins: [scrollbarPlugin]
 })

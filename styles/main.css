@@ -4,6 +4,7 @@ html {
 
 body {
   @apply dark:(bg-dark-900 text-light-900) bg-light-50 text-dark-200 transition-colors;
+  @apply scrollbar-thin scrollbar-track-light-50 scrollbar-thumb-dark-200 dark:(scrollbar-track-dark-900 scrollbar-thumb-light-900);
 }
 
 ol li {
@@ -28,4 +29,8 @@ hr {
 
 .markdown a {
   @apply text-dark-200 dark:text-light-900 font-semibold;
+}
+
+blockquote {
+  @apply p-3 bg-light-500 dark:bg-dark-500 border-l-[8px] border-l-light-900 dark:border-l-dark-50;
 }
