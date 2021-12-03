@@ -19,7 +19,7 @@ pre {
 }
 
 .markdown img {
-  @apply mx-auto;
+  @apply mx-auto max-h-140;
 }
 
 hr {

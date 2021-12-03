@@ -3,10 +3,10 @@ import type { GetStaticProps, NextPage } from 'next'
 import { Main, Markdown } from '~/components'
 import { contentDir } from '~/helper/content'
 import { parseMarkdown } from '~/helper/markdown'
-import { Notes } from '~/types'
+import { MarkdownPage } from '~/types'
 
 interface NotesPageProps {
-  notes: Notes
+  notes: MarkdownPage
 }
 
 const NotesPage: NextPage<NotesPageProps> = ({ notes: { parsed } }) => {

@@ -23,4 +23,4 @@ export interface BlogMetadata {
 export type Blog = ParsedMarkdown<BlogMetadata>
 export type BlogPreview = Preview<BlogMetadata>
 
-export interface Notes extends ParsedMarkdown<{}> {}
+export interface MarkdownPage extends ParsedMarkdown<{}> {}

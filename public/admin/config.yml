@@ -1,44 +1,35 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: public/img
-public_folder: /img
-site_url: 'pak-catur.netlify.app'
+publish_mode: editorial_workflow
+media_folder: public/img/content
+public_folder: /img/content
+site_url: 'https://erickchristian.netlify.app/'
 collections:
-  - label: 'Materi'
-    name: 'materi'
-    folder: 'materi'
+  - label: 'Blogs'
+    name: 'blogs'
+    folder: 'contents/blogs'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - label: Date
+        name: date
+        format: 'DD MMM YYYY'
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'soal'
-    folder: 'soal'
-    label: 'Soal'
-    create: true
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - label: 'Soal'
-        name: 'soal'
-        widget: 'list'
-        max: 10
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'Index Page'
+        name: 'index'
+        file: 'contents/index.md'
         fields:
-          - { label: 'Pertanyaan', widget: 'string', name: 'pertanyaan' }
-          - label: 'Foto Tambahan'
-            widget: 'image'
-            name: 'fotoTambahan'
-            required: false
-          - label: 'Daftar Jawaban'
-            widget: 'list'
-            name: 'daftarJawaban'
-            max: 5
-            fields:
-              - { label: 'Jawaban', name: 'jawaban', widget: 'string' }
-              - label: 'Foto Tambahan'
-                widget: 'image'
-                name: 'fotoTambahan'
-                required: false
-              - label: 'Jawaban Benar?'
-                name: 'trueKah'
-                widget: 'boolean'
-                default: false
+          - label: Body
+            name: body
+            widget: markdown
+      - label: 'Notes Page'
+        name: 'notes'
+        file: 'contents/notes.md'
+        fields:
+          - label: Body
+            name: body
+            widget: markdown
