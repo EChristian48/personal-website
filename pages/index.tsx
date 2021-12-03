@@ -27,26 +27,9 @@ const Index: NextPage = () => {
         </p>
 
         <p>
-          A Soulsborne fans even though I've never played Demon Souls and
-          Bloodborne.
-        </p>
-
-        <p>
           I love Web and Hybrid App development, but I also like doing other
           things too. Here are a few:
         </p>
-
-        <ul>
-          <li>
-            Data Science, It's fun playing with data. (At the cost of 90% of my
-            brainpower)
-          </li>
-          <li>Game Development using Unity, because I love games</li>
-          <li>
-            Cyber Security, I tried DDoS-ing my high school server using LOIC (I
-            know it's stupid)
-          </li>
-        </ul>
 
         <p>
           I just graduated from SMK Wikrama Bogor this year. But who knows what
