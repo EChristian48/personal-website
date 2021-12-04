@@ -4,6 +4,7 @@ import { Main, Markdown } from '~/components'
 import { contentDir } from '~/helper/content'
 import { parseMarkdown } from '~/helper/markdown'
 import { MarkdownPage } from '~/types'
+import Head from 'next/head'
 
 interface IndexProps {
   index: MarkdownPage
@@ -11,9 +12,18 @@ interface IndexProps {
 
 const Index: NextPage<IndexProps> = ({ index: { parsed } }) => {
   return (
-    <Main>
-      <Markdown>{htmr(parsed)}</Markdown>
-    </Main>
+    <>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="jwuGaag6OVJJ8VNJa6euHdXW3AYBhR9ZXf4mgY1K6Zk"
+        />
+      </Head>
+
+      <Main>
+        <Markdown>{htmr(parsed)}</Markdown>
+      </Main>
+    </>
   )
 }
 
