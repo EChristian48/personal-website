@@ -3,11 +3,13 @@ import { HTMLProps } from 'react'
 
 interface IconButtonProps extends HTMLProps<HTMLButtonElement> {
   icon: string
+  label: string
 }
 
 export default function IconButton({
   icon,
   className,
+  label,
   ...rest
 }: IconButtonProps) {
   return (
@@ -23,7 +25,9 @@ export default function IconButton({
       dark:hover:bg-dark-50
       ${className}`}
       {...rest}
-      type="button">
+      type="button"
+      aria-label={label}
+      title={label}>
       <Icon icon={icon} height={28} width={28} />
     </button>
   )

@@ -15,11 +15,7 @@ export default function Nav() {
         icon="carbon:application"
         label="Projects"
       />
-      <NavIcon
-        href={{ pathname: '/notes' }}
-        icon="carbon:pen"
-        label="Notes"
-      />
+      <NavIcon href={{ pathname: '/notes' }} icon="carbon:pen" label="Notes" />
       <NavIcon
         href="https://github.com/EChristian48"
         icon="carbon:logo-github"
@@ -29,6 +25,7 @@ export default function Nav() {
       <IconButton
         icon={isDark ? 'carbon:moon' : 'carbon:sun'}
         onClick={() => setDark((prev) => !prev)}
+        label="Toggle dark mode"
       />
     </nav>
   )
