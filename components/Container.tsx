@@ -13,9 +13,9 @@ const Container: FC<HTMLProps<HTMLDivElement>> = ({
       py-8
       px-4
       sm:px-10
-      md:px-16
-      lg:px-20
-      xl:px-28
+      md:px-18
+      lg:px-52
+      xl:px-84
       ${className}`}
       {...rest}>
       {children}
