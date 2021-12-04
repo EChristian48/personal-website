@@ -1,5 +1,6 @@
 import htmr from 'htmr'
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next'
+import { NextSeo } from 'next-seo'
 import { ParsedUrlQuery } from 'querystring'
 import { Main, Markdown } from '~/components'
 import { blogsDir, blogsList } from '~/helper/content'
@@ -21,12 +22,15 @@ const BlogsIndex: NextPage<BlogPageProps> = ({
   }
 }) => {
   return (
-    <Main>
-      <h1>{title}</h1>
-      <div>{date}</div>
+    <>
+      <NextSeo title={title} />
+      <Main>
+        <h1>{title}</h1>
+        <div>{date}</div>
 
-      <Markdown>{htmr(parsed)}</Markdown>
-    </Main>
+        <Markdown>{htmr(parsed)}</Markdown>
+      </Main>
+    </>
   )
 }
 

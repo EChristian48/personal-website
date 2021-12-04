@@ -1,5 +1,6 @@
 import htmr from 'htmr'
 import type { GetStaticProps, NextPage } from 'next'
+import { NextSeo } from 'next-seo'
 import { Main, Markdown } from '~/components'
 import { contentDir } from '~/helper/content'
 import { parseMarkdown } from '~/helper/markdown'
@@ -11,9 +12,13 @@ interface NotesPageProps {
 
 const NotesPage: NextPage<NotesPageProps> = ({ notes: { parsed } }) => {
   return (
-    <Main>
-      <Markdown>{htmr(parsed)}</Markdown>
-    </Main>
+    <>
+      <NextSeo title="Notes" />
+
+      <Main>
+        <Markdown>{htmr(parsed)}</Markdown>
+      </Main>
+    </>
   )
 }
 

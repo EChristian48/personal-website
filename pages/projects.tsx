@@ -1,20 +1,25 @@
 import type { NextPage } from 'next'
+import { NextSeo } from 'next-seo'
 import { Main, ProjectCard } from '~/components'
 import { projects } from '~/contents/projects'
 
 const ProjectsPage: NextPage = () => {
   return (
-    <Main>
-      <header className="space-y-2">
-        <h1>Projects</h1>
+    <>
+      <NextSeo title="Projects" />
 
-        <p>Some of the projects that I have created</p>
-      </header>
+      <Main>
+        <header className="space-y-2">
+          <h1>Projects</h1>
 
-      {projects.map((project, index) => (
-        <ProjectCard {...project} key={index} />
-      ))}
-    </Main>
+          <p>Some of the projects that I have worked on</p>
+        </header>
+
+        {projects.map((project, index) => (
+          <ProjectCard {...project} key={index} />
+        ))}
+      </Main>
+    </>
   )
 }
 

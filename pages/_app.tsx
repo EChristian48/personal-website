@@ -3,6 +3,8 @@ import { useRouter } from 'next/router'
 import nProgress from 'nprogress'
 import { useEffect } from 'react'
 import { Default } from '~/layouts'
+import { DefaultSeo } from 'next-seo'
+import seoConfig from '~/next-seo.config'
 
 // Styles imports
 import 'windi.css'
@@ -36,9 +38,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router])
 
   return (
-    <Default>
-      <Component {...pageProps} />
-    </Default>
+    <>
+      <DefaultSeo {...seoConfig} />
+      <Default>
+        <Component {...pageProps} />
+      </Default>
+    </>
   )
 }
 
