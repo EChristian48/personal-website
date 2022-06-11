@@ -43,3 +43,13 @@ Selain dari bumbu Sate nya tersendiri, sambel nya pun tidak kalah nendangnya! di
 
 
 ## 3. Sop Tulang Sum Sum
+
+![](/img/content/2fec1032-e1de-47e1-aeed-ebe4e639cc60_go-biz_20211027_163533.jpeg)
+
+Menu Sop Tulang Sum Sum jadi salah satu menu andalan di Resto Kambing Jakarta ini. Semangkuk sop sum sum sapi disajikan dengan ukuran tulang kaki yang lumayan besar dan banyak dengan sumsum lembut di dalamnya.\
+\
+Kuah kaldu beningnya juga tak kalah sedap, apalagi dimakan bersama nasi putih. Dengan hanya merogoh kocek 62 ribu limaratus anda sudah bisa menikmati hidangan ini.
+
+Yang terakhir, selain makanan - makanan berat yang mereka sajikan, Resto Kambing Jakarta ini pun mempunyai menu minuman spesial yaitu,
+
+## 4. Susu Kambing Segar
