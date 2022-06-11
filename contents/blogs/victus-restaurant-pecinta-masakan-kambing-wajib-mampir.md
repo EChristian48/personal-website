@@ -53,3 +53,13 @@ Kuah kaldu beningnya juga tak kalah sedap, apalagi dimakan bersama nasi putih. D
 Yang terakhir, selain makanan - makanan berat yang mereka sajikan, Resto Kambing Jakarta ini pun mempunyai menu minuman spesial yaitu,
 
 ## 4. Susu Kambing Segar
+
+![](/img/content/es-kopi-susu-gula-aren-es-susu-gula-aren.jpg)
+
+Nah, kalau sudah makan makanan yang berat, enaknya minum susu nih! apalagi penyuka Susu Kambing, Resto Kambing Jakarta ini menyediakan susu gula aren yang dapat memanjakan para pecinta susu kambing dengan penyajian yang kekinian. Sementara bagi para pecinta kopi, ada menu kopi susu gula aren. Satu pembeda yang sekaligus menjadi kelebihan dari susu gula aren Victus Restaurant adalah gulanya yang sedikit, tetapi bisa menciptakan cita rasa manis setara dengan susu gula aren berbahan dasar susu sapi.
+
+Rahasianya ada pada bahan dasar susu kambing yang ternyata memiliki cita rasa manis dan *creamy* bawaan lebih dari susu sapi sehingga untuk menciptakan rasa manis yang sama dengan susu gula aren pada umumnya, hanya perlu menambahkan gula sedikit saja. Dari sisi kesehatan, konsumsi gula yang sedikit tentunya sangat baik untuk tubuh.
+
+
+
+##### ``**[`Resto Kambing Jakarta Paling Enak! Victus Restaurant`](https://medium.com/@vito.anggana6/resto-kambing-jakarta-paling-enak-victus-restaurant-a0731cbd562b)``**
